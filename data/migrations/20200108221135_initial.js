@@ -26,12 +26,12 @@ exports.up = async function(knex) {
     table.string('directions');    
   })
   await knex.schema.createTable('ingredients', (table) => {
-    table.increment('id').notNullable();
+    table.increments('id').notNullable();
     table.string('name').notNullable();
-    table.string('quantity').notNullable();
+    table.float('quantity').notNullable();
 })
   await knex.schema.createTable('recipes', (table) => {
-    table.increment('id').notNullable();
+    table.increments('id').notNullable();
     table.string('name').notNullable();        
 })  
 };
