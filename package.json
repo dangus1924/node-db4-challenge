@@ -1,0 +1,27 @@
+{
+  "name": "db4-challenge",
+  "version": "1.0.0",
+  "description": "Challenge Project for Node DB 4 Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangus1924/node-db4-challenge.git"
+  },
+  "keywords": [],
+  "author": "Darren-Angus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dangus1924/node-db4-challenge/issues"
+  },
+  "homepage": "https://github.com/dangus1924/node-db4-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "knex": "^0.20.7",
+    "nodemon": "^2.0.2",
+    "sqlite3": "^4.1.1"
+  }
+}
